@@ -1,0 +1,28 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.Login {
+    min-height: 100vh;
+    background: url('./landing.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.Form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.164);
+    padding: 50px;
+    border-radius: 10px;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}

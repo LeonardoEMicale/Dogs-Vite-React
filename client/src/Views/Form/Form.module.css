@@ -1,0 +1,73 @@
+.container {
+  display: flex;
+  justify-content: left;
+  background: url("./formImage2.jpg") no-repeat center center fixed;
+  background-size: cover;
+  height: 89.9vh;
+}
+
+.Form {
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  border-radius: 5px;
+  padding: 5px;
+  width: 500px;
+  height: 600px;
+  margin-top: 25px;
+}
+
+.Form label,
+.Form span {
+  font-size: 13px;
+  color: rgba(14, 3, 1, 0.781);
+  font-weight: bold;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 2px rgba(177, 175, 175, 0.5);
+  width: 100%; 
+}
+
+.Form button {
+  font-size: 13px;
+  margin: 5px;
+  color: rgba(14, 3, 1, 0.781);
+  font-weight: bold;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 2px rgba(177, 175, 175, 0.5);
+}
+
+.Form select {
+  font-size: 13px;
+  margin: 12px;
+  color: rgba(14, 3, 1, 0.781);
+  font-weight: bold;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 2px rgba(177, 175, 175, 0.5);
+  
+}
+
+.Form input {
+  font-size: 13px;
+  margin: 3px;
+  color: rgba(14, 3, 1, 0.781);
+  font-weight: bold;
+  text-shadow: 1px 1px 2px rgba(177, 175, 175, 0.5);
+  width: 100%; 
+}
+
+.Form .error {
+  color: rgba(219, 9, 51, 0.452);
+}
+
+.Form .success {
+  border: 1px solid rgba(10, 158, 10, 0.63);
+}
+
+.Form .buttonDisabled {
+  color: antiquewhite;
+}
+
+.Form .buttonEnabled {
+  color: rgba(82, 156, 8, 0.801);
+}
+

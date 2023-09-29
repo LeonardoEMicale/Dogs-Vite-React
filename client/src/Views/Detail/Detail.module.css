@@ -1,0 +1,18 @@
+.Detail {
+    display: flex;
+    justify-content: center;
+    position: relative; /* Agrega esta línea para habilitar el posicionamiento relativo */
+    height: 89.9vh;
+    
+}
+
+
+.Detail p {
+    display: flex;
+    color: rgba(228, 134, 12, 0.616);
+    font-size: 30px;
+   
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}

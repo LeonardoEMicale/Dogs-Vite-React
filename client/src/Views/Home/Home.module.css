@@ -1,0 +1,18 @@
+.HomeStyle {
+  margin: 1px;
+  padding: 1px;
+  min-height: 100vh;
+    background: url('./landing.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.HomeStyle p {
+  display: flex;
+    color: rgba(7, 50, 168, 0.616);
+    font-size: 30px;
+    text-transform: uppercase;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+  }
+

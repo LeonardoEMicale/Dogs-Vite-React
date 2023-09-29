@@ -1,0 +1,110 @@
+.Cards {
+    width: 240px;
+    height: 325px;
+    border-radius: 5px;
+    padding: 5px;
+    max-width: 300px;
+    word-wrap: break-word;
+    background-color: rgba(23, 56, 128, 0.404);
+    border: 1px solid #06023d;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    perspective: 1000px;
+    transition: transform 0.5s ;
+    cursor: pointer;
+}
+
+.Cards:hover {
+    transform: scale(1.05);
+}
+
+.Cards img {
+    width: 220px;
+    height: 160px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+
+
+.Cards h2 {
+    font-size: 17px;
+    margin: 5px;
+    color: rgb(0, 0, 0);
+    text-align: center; 
+    font-weight: bold; 
+    text-shadow: 1px 1px 2px rgba(177, 175, 175, 0.5);
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.Cards h3 {
+    font-size: 16px;
+    margin: 5px;
+    color: rgb(0, 0, 0);
+    text-align: center; 
+    font-weight: bold;  
+    text-shadow: 1px 1px 2px rgba(177, 175, 175, 0.5);
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.Cards h2:hover, .Cards h3:hover {
+    color: #d4cdc8ce; /* Cambiar el color al hacer hover */
+    text-shadow: 2px 2px 4px rgba(46, 45, 45, 0.8); /* Cambiar la sombra al hacer hover */
+}
+
+.Cards button {
+    margin-left: 8em;
+    border: none;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    background-color: rgba(255, 255, 255, 0.048);
+}
+
+.Cards button:hover {
+    transform: scale(1.05);
+    color: #d4cdc8ce;
+    background-color: rgba(206, 206, 206, 0.555);
+}
+
+
+.CardInner {
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: transform 0.5s;
+  }
+  
+  .Front,
+  .Back {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+  }
+  
+  .Front {
+    transform: rotateY(0deg);
+  }
+  
+  .Back {
+    transform: rotateY(180deg);
+  }
+  
+  .Flipped {
+    transform: rotateY(180deg);
+  }
+
+  .Back h2{
+    font-size: 16px;
+    margin: 8px;
+    color: rgb(10, 10, 10);
+    text-align: center; 
+    font-weight: bold;  
+    text-shadow: 1px 1px 2px rgba(177, 175, 175, 0.5);
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+    margin-top: 25px;
+  }
+  .Back h3 {
+    color:rgb(10, 10, 10);
+  }

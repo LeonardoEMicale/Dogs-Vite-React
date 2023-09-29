@@ -1,0 +1,33 @@
+.NavBar {
+  display: flex;
+  background-color: transparent;
+  padding: 20px;
+  background-color: rgba(8, 48, 134, 0.548);
+  border: 1px solid #77483a;
+}
+
+.NavButtons {
+  display: flex;
+  margin-left: 10em;
+}
+
+.NavButtons a {
+  text-decoration: none;
+}
+
+.NavButtons button {
+  background-color: transparent;
+  border: none;
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  font-weight: 600;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-transform: uppercase;
+}
+
+.NavButtons button:hover {
+  background-color: #f0ebe51f;
+}
